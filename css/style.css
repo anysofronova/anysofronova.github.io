@@ -63,7 +63,7 @@ nav{
 .menu li a:hover{
     background-color: rgba(255, 255, 255, 0.1);
 }
-.language{
+.menu li .language{
     color: #FFFFFF;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 300;
@@ -96,4 +96,63 @@ nav{
     font-family: 'Cormorant Garamond', serif;
     font-weight: 300;
     margin-bottom: 1vw;
+}
+
+/*--------------------ABOUT--------------------*/
+#about{
+    padding: 3vw 5vw;
+    border-top: 2px solid black;
+}
+.about_top, .experience_top, .skills_top, .portfolio_top{
+    text-align: center;
+    justify-content: center;
+
+}
+.about_top h2, .experience_top h2, .skills_top h2, .portfolio_top h2{
+    font-size: 4vw;
+    letter-spacing: 2px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    padding: 2vw 0;
+}
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2vw;
+    padding: 2vw 0;
+}
+.personal_information{
+    text-align: justify;
+    max-width: 23%;
+}
+.personal_information span{
+    color: #c19a78;
+}
+.key_information{
+    font-weight: bold;
+}
+.value_information:not(:last-child){
+    margin-bottom: 1.5vw;
+}
+img{
+    width: 18vw;
+    height: 18vw;
+}
+
+/*SOCIAL*/
+.social{
+    padding: 3vw 0;
+    display: flex;
+}
+.social a{
+    margin-right: 2vw;
+}
+.social i{
+    color: rgba(18,17,17,0.6);
+    font-size: 2.2vw;
+}
+.social a:hover i{
+    color: #071b28;
+    transition: all ease 0.6s;
 }
