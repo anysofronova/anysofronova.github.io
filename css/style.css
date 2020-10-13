@@ -156,3 +156,77 @@ img{
     color: #071b28;
     transition: all ease 0.6s;
 }
+
+/*--------------------EXPERIENCE--------------------*/
+#experience{
+    border-top: 2px solid black;
+    box-sizing: border-box;
+    background-image: url("../images/bg_timeline.jpg");
+    font-size: 1.1vw;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 1.5vw;
+    border-bottom: 2px solid black;
+}
+.timeline_container{
+    padding: 0 5vw;
+}
+.timeline{
+    position: relative;
+    background-color: rgba(0,0,0,0.3);
+    color: #FFFFFF;
+}
+.timeline:before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+.timeline ul li{
+    position: relative;
+    width: 50%;
+    padding: 2vw 3vw;
+    box-sizing: border-box;
+}
+.timeline ul li:nth-child(odd){
+    float: left;
+    text-align: right;
+    clear: both;
+}
+.timeline ul li:nth-child(even){
+    float: right;
+    text-align: left;
+    clear: both;
+}
+.content{
+    padding: 1vw;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin-top: 2vw;
+}
+.content h3{
+    margin-bottom: 1.2vw;
+}
+.time{
+    text-shadow: 2px 2px 1px #000000;
+    margin-bottom: 1.2vw;
+    font-size: 1.2vw;
+}
+.content a{
+    color: #FFFFFF;
+}
+.timeline ul li:nth-child(odd) .time{
+    position: absolute;
+    top: 8vw;
+    left: 52vw;
+    width: max-content;
+}
+.timeline ul li:nth-child(even) .time{
+    position: absolute;
+    top: 8vw;
+    right: 52vw;
+    width: max-content;
+}
