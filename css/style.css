@@ -230,3 +230,104 @@ img{
     right: 52vw;
     width: max-content;
 }
+
+/*--------------------SKILLS--------------------*/
+#skills {
+    background-color: #f0ead1;
+    padding: 3vw 5vw;
+    border-bottom: 2px solid black;
+}
+.skills_main{
+    margin-top: 3vw;
+    padding: 0 3vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1vw;
+}
+.progress {
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    align-items: center;
+    display: flex;
+    height: 2vw;
+    width: 34vw;
+    border: 1px solid #a59b91;
+    margin: 1vw 0;
+}
+.progress-value {
+    border-radius: 100px;
+    background: rgb(239,240,215);
+    background: linear-gradient(90deg, rgba(239,240,215,1) 0%, rgba(212, 235, 155, 0.98) 49%, rgba(152,250,174,1) 100%);
+    height: 100%;
+}
+.html-skill{
+    animation: html-skill-anim 3s normal forwards;
+}
+.css-skill{
+    animation: css-skill-anim 3s normal forwards;
+}
+.js-skill{
+    animation: js-skill-anim 3s normal forwards;
+}
+.python-skill{
+    animation: python-skill-anim 3s normal forwards;
+}
+.git-skill{
+    animation: git-skill-anim 3s normal forwards;
+}
+.react-skill{
+    animation: react-skill-anim 3s normal forwards;
+}
+.jQuery-skill{
+    animation: jQuery-skill-anim 3s normal forwards;
+}
+.sass-skill{
+    animation: sass-skill-anim 3s normal forwards;
+}
+.typeScript-skill{
+    animation: typeScript-skill-anim 3s normal forwards;
+}
+.vue-skill{
+    animation: vue-skill-anim 3s normal forwards;
+}
+
+@keyframes html-skill-anim {
+    0% { width: 0; }
+    100% { width: 85%; }
+}
+@keyframes css-skill-anim {
+    0% { width: 0; }
+    100% { width: 70%; }
+}
+@keyframes js-skill-anim {
+    0% { width: 0; }
+    100% { width: 45%; }
+}
+@keyframes python-skill-anim {
+    0% { width: 0; }
+    100% { width: 75%; }
+}
+@keyframes git-skill-anim {
+    0% { width: 0; }
+    100% { width: 68%; }
+}
+@keyframes react-skill-anim {
+    0% { width: 0; }
+    100% { width: 90%; }
+}
+@keyframes jQuery-skill-anim {
+    0% { width: 0; }
+    100% { width: 80%; }
+}
+@keyframes sass-skill-anim {
+    0% { width: 0; }
+    100% { width: 70%; }
+}
+@keyframes typeScript-skill-anim {
+    0% { width: 0; }
+    100% { width: 60%; }
+}
+@keyframes vue-skill-anim {
+    0% { width: 0; }
+    100% { width: 50%; }
+}
