@@ -372,7 +372,7 @@ img{
 input[type="radio"] {
     display:none;
 }
-label{
+.portfolio_main label{
     width:15%;
     float:left;
     text-align:center;
@@ -388,7 +388,7 @@ label{
     color: #413f3a;
     background-color: #f0ead1;
 }
-label:hover{
+.portfolio_main label:hover{
     color: #110f0f;
     background-color: #f2eee0;
 }
@@ -735,7 +735,7 @@ footer{
         height:25vw;
         margin: 0.5vw 0.5vw;
     }
-    label{
+    .portfolio_main label{
         width:20%;
         margin:1vw;
         font-size: 2vw;
@@ -946,7 +946,7 @@ footer{
         height:40vw;
         margin: 0.5vw 0.5vw;
     }
-    label{
+    .portfolio_main label{
         width:45%;
         margin:1vw;
         font-size: 5vw;
