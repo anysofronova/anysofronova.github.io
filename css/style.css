@@ -61,7 +61,7 @@ nav{
     color: #d7ddd4;
 }
 .menu li a:hover{
-    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
 }
 .menu li .language{
     color: #FFFFFF;
@@ -469,4 +469,34 @@ footer{
     font-size: 1.6vw;
     font-family: 'Cormorant Garamond', serif;
     padding-bottom: 2vw;
+}
+
+/*--------------------MEDIAS--------------------*/
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /*--------------------MAIN-------------------*/
+    .main_information{
+        padding: 20vw 15vw;
+    }
+    nav{
+        font-size: 2vw;
+        height: 8vw;
+    }
+    .logo {
+        font-size: 2.3vw;
+    }
+    .name h1{
+        font-size: 5vw;
+    }
+    .details{
+        font-size: 2.5vw;
+    }
+
+    /*--------------------ABOUT--------------------*/
+    .about_top h2, .experience_top h2, .skills_top h2, .portfolio_top h2{
+        font-size: 5vw;
+    }
+    .information{
+        font-size: 1.4vw;
+    }
 }
