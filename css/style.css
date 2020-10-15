@@ -435,3 +435,38 @@ input[type="radio"][id="game"]:checked ~ .landings, input[type="radio"][id="game
     margin:0;
     opacity:0;
 }
+
+/*--------------------FOOTER--------------------*/
+footer{
+    background-image: url("../images/bg-footer.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+#footer{
+    background-color: rgba(0,0,0,0.3);
+}
+.social_footer{
+    display: flex;
+    justify-content: center;
+}
+.social_footer a{
+    color: #d7ddd4;
+    font-size: 25px;
+    margin: 3vw 1vw 2vw 1vw;
+    padding: 0.6vw 1vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+.social_footer a:hover{
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.my_name{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 1.6vw;
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 2vw;
+}
