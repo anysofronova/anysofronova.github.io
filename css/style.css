@@ -741,3 +741,214 @@ footer{
         font-size: 2vw;
     }
 }
+
+@media screen and (max-width: 480px){
+    /*--------------------MAIN-------------------*/
+    .main_information{
+        padding: 35vw 10vw;
+    }
+    nav{
+        height: 15vw;
+    }
+    .menu{
+        display: none;
+    }
+    #menuToggle {
+        display: block;
+        position: relative;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    #menuToggle a {
+        color: #ffffff;
+        margin: 1.3vw 0;
+        transition: color 0.3s ease;
+    }
+    #menuToggle input {
+        display: block;
+        width: 30px;
+        height: 40px;
+        position: absolute;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+        -webkit-touch-callout: none;
+    }
+    #menuToggle span {
+        display: block;
+        width: 28px;
+        height: 3px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #ffffff;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0;
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+        background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+        opacity 0.55s ease;
+    }
+    #menuToggle span:first-child {
+        transform-origin: 0 0;
+    }
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0 100%;
+    }
+    #menuToggle input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #ffffff;
+    }
+    #menuToggle input:checked ~ span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    #menuToggle input:checked ~ span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+    #menu_hamburger {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: -11vw 0 0 -5vw;
+        background: rgba(1,1,1,0.9);
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 0 0;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+    #menu_hamburger a, #menu_hamburger li{
+        margin: 2vw 0;
+        font-size: 8vw;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 300;
+    }
+    #menuToggle input:checked ~ ul {
+        transform: none;
+    }
+    .menu li a{
+        color: #ffffff;
+    }
+    .logo {
+        font-size: 5vw;
+    }
+    .name h1{
+        font-size: 9vw;
+    }
+    .details{
+        font-size: 4vw;
+    }
+    .language{
+        margin: 0;
+    }
+
+    /*--------------------ABOUT--------------------*/
+    .about_top h2, .experience_top h2, .skills_top h2, .portfolio_top h2{
+        font-size: 10vw;
+    }
+    .information{
+        font-size: 4vw;
+        padding: 4vw 0;
+        flex-direction: column;
+    }
+    .personal_information{
+        text-align: justify;
+        max-width: 80%;
+    }
+    p.personal_information{
+        margin-bottom: 4vw;
+    }
+    .personal_information li{
+        letter-spacing: 0.4vw;
+    }
+    img{
+        width:60vw;
+        height: 60vw;
+        margin-bottom: 4vw;
+    }
+    /*SOCIAL*/
+    .social i{
+        color: rgba(18,17,17,0.6);
+        margin-right: 2vw;
+        font-size: 7vw;
+    }
+
+    /*--------------------EXPERIENCE--------------------*/
+    #experience{
+        font-size: 4vw;
+        padding-top: 1.5vw;
+    }
+    .timeline{
+        margin-bottom: 5vw;
+    }
+    .timeline:before{
+        left: 20%;
+        width: 2px;
+    }
+    .timeline ul li{
+        position: relative;
+        width: 90%;
+        padding: 2vw 3vw;
+    }
+    .timeline ul li:nth-child(odd){
+        left: 15%;
+        text-align: left;
+    }
+    .timeline ul li:nth-child(even){
+        left: 15%;
+        float: left;
+    }
+    .content h3{
+        font-size: 5vw;
+        margin-bottom: 2.5vw;
+    }
+    .time{
+        text-shadow: 2px 2px 1px #000000;
+        font-size: 3.8vw;
+    }
+    .timeline ul li:nth-child(odd) .time{
+        left: -17vw;
+        width: 15vw;
+    }
+    .timeline ul li:nth-child(even) .time{
+        left: -17vw;
+        width: 15vw;
+    }
+
+    /*--------------------SKILLS--------------------*/
+    .skills_main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .column li p{
+        font-size: 5vw !important;
+    }
+    .progress {
+        height: 4vw;
+        width: 60vw;
+    }
+
+    /*--------------------PORTFOLIO--------------------*/
+    .portfolio_main{
+        height: 270vw;
+        margin-top: 1vw;
+        padding: 0 5vw;
+    }
+    .tile{
+        width:80vw;
+        height:40vw;
+        margin: 0.5vw 0.5vw;
+    }
+    label{
+        width:45%;
+        margin:1vw;
+        font-size: 5vw;
+    }
+}
