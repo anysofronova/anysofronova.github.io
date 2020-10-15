@@ -331,3 +331,107 @@ img{
     0% { width: 0; }
     100% { width: 50%; }
 }
+
+/*--------------------PORTFOLIO--------------------*/
+#portfolio{
+    background-image: url("../images/bg-portfolio.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 3vw 5vw;
+}
+.portfolio_main{
+    height: 50vw;
+    margin-top: 1vw;
+}
+.tile{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width:28vw;
+    height:18vw;
+    background-color: #f0ead1;
+    margin: 1vw 1vw;
+    float: left;
+    transition:all 1s;
+    display: block;
+    position: relative;
+}
+.ToDoList{
+    background-image: url("../images/ToDoList_portfolio.png");
+}
+.Quiz{
+    background-image: url("../images/Quiz_portfolio.png");
+}
+.NewYear{
+    background-image: url("../images/NewYear.png");
+}
+input[type="radio"] {
+    display:none;
+}
+label{
+    width:15%;
+    float:left;
+    text-align:center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding:0.6vw 1vw;
+    margin:1vw 2vw 1vw 3vw;
+    cursor:pointer;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+    position: relative;
+    line-height: 1;
+    color: #413f3a;
+    background-color: #f0ead1;
+}
+label:hover{
+    color: #110f0f;
+    background-color: #f2eee0;
+}
+.tile:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+}
+.tile:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+.tile:hover:before,
+.tile:hover:after {
+    opacity: 1;
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.3)
+}
+
+input[type="radio"][id="landings"]:checked ~ .study, input[type="radio"][id="landings"]:checked ~ .game {
+    width:0;
+    height:0;
+    padding:0;
+    margin:0;
+    opacity:0;
+}
+input[type="radio"][id="study"]:checked ~ .landings, input[type="radio"][id="study"]:checked ~ .game {
+    width:0;
+    height:0;
+    padding:0;
+    margin:0;
+    opacity:0;
+}
+input[type="radio"][id="game"]:checked ~ .landings, input[type="radio"][id="game"]:checked ~ .study {
+    width:0;
+    height:0;
+    padding:0;
+    margin:0;
+    opacity:0;
+}
