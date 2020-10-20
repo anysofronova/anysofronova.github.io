@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c89dafa-22b4-4251-b088-8e39f5e125c0" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/../MyHTML5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyHTML5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NewYearTimer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NewYearTimer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/style.css" afterDir="false" />
+>>>>>>> Stashed changes
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hWrEY89nA4eBd65dUkgN4GhqyY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/QuizAboutMe/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c89dafa-22b4-4251-b088-8e39f5e125c0" name="Default Changelist" comment="" />
+      <created>1600137577665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600137577665</updated>
+      <workItem from="1600137578794" duration="17593000" />
+<<<<<<< Updated upstream
+      <workItem from="1600236858826" duration="1281000" />
+=======
+      <workItem from="1600236858826" duration="1641000" />
+      <workItem from="1600358883536" duration="98000" />
+>>>>>>> Stashed changes
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+<<<<<<< Updated upstream
+    <state width="1419" height="141" key="GridCell.Tab.0.bottom" timestamp="1600238110965">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600238110965" />
+    <state width="1419" height="141" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1600237820380" />
+    <state width="1419" height="141" key="GridCell.Tab.0.center" timestamp="1600238110964">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600238110964" />
+    <state width="1419" height="141" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1600237820379" />
+    <state width="1419" height="141" key="GridCell.Tab.0.left" timestamp="1600238110964">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600238110964" />
+    <state width="1419" height="141" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1600237820378" />
+    <state width="1419" height="141" key="GridCell.Tab.0.right" timestamp="1600238110965">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600238110965" />
+    <state width="1419" height="141" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1600237820380" />
+    <state width="1419" height="141" key="GridCell.Tab.1.bottom" timestamp="1600238110857">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600238110857" />
+    <state width="1419" height="141" key="GridCell.Tab.1.center" timestamp="1600238110855">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1600238110855" />
+    <state width="1419" height="141" key="GridCell.Tab.1.left" timestamp="1600238110853">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1600238110853" />
+    <state width="1419" height="141" key="GridCell.Tab.1.right" timestamp="1600238110856">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1600238110856" />
+    <state width="1419" height="141" key="GridCell.Tab.2.bottom" timestamp="1600238110859">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600238110859" />
+    <state width="1419" height="141" key="GridCell.Tab.2.center" timestamp="1600238110858">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1600238110858" />
+    <state width="1419" height="141" key="GridCell.Tab.2.left" timestamp="1600238110857">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1600238110857" />
+    <state width="1419" height="141" key="GridCell.Tab.2.right" timestamp="1600238110858">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1600238110858" />
+    <state width="1419" height="141" key="GridCell.Tab.3.bottom" timestamp="1600238110861">
+=======
+    <state width="1419" height="141" key="GridCell.Tab.0.bottom" timestamp="1600358987173">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600358987173" />
+    <state width="1419" height="141" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1600237820380" />
+    <state width="1419" height="141" key="GridCell.Tab.0.center" timestamp="1600358987172">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600358987172" />
+    <state width="1419" height="141" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1600237820379" />
+    <state width="1419" height="141" key="GridCell.Tab.0.left" timestamp="1600358987172">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600358987172" />
+    <state width="1419" height="141" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1600237820378" />
+    <state width="1419" height="141" key="GridCell.Tab.0.right" timestamp="1600358987173">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600358987173" />
+    <state width="1419" height="141" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1600237820380" />
+    <state width="1419" height="141" key="GridCell.Tab.1.bottom" timestamp="1600358987174">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600358987174" />
+    <state width="1419" height="141" key="GridCell.Tab.1.center" timestamp="1600358987173">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1600358987173" />
+    <state width="1419" height="141" key="GridCell.Tab.1.left" timestamp="1600358987173">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1600358987173" />
+    <state width="1419" height="141" key="GridCell.Tab.1.right" timestamp="1600358987174">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1600358987174" />
+    <state width="1419" height="141" key="GridCell.Tab.2.bottom" timestamp="1600358987176">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600358987176" />
+    <state width="1419" height="141" key="GridCell.Tab.2.center" timestamp="1600358987175">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1600358987175" />
+    <state width="1419" height="141" key="GridCell.Tab.2.left" timestamp="1600358987174">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1600358987174" />
+    <state width="1419" height="141" key="GridCell.Tab.2.right" timestamp="1600358987175">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1600358987175" />
+    <state width="1419" height="141" key="GridCell.Tab.3.bottom" timestamp="1600238954611">
+>>>>>>> Stashed changes
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600238110861" />
+    <state width="1419" height="141" key="GridCell.Tab.3.center" timestamp="1600238110860">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1600238110860" />
+    <state width="1419" height="141" key="GridCell.Tab.3.left" timestamp="1600238110859">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1600238110859" />
+    <state width="1419" height="141" key="GridCell.Tab.3.right" timestamp="1600238110860">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="141" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1600238110860" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/QuizAboutMe$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1600140665486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

@@ -369,6 +369,9 @@ img{
 .NewYear{
     background-image: url("../images/NewYear.png");
 }
+.TicTacToe{
+    background-image: url("../images/TicTacToe.png");
+}
 input[type="radio"] {
     display:none;
 }

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #86746B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.quiz-container{
+    background-color: #F4DFD6;
+    width: 35rem;
+    border-radius: 5%;
+    box-shadow: 0 0 10px 2px rgba(100,100,100,0.3);
+    color: #2B2B33;
+    margin-top: 10%;
+    max-width: 100%;
+}
+
+.quiz-header{
+    padding: 2.5rem;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+ul li{
+    padding: 0.6rem 0;
+    font-size: 1.1rem;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+.heart {
+    position: fixed;
+    top: -1vh;
+    font-size: 1.3rem;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+    z-index: -1;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(105vh);
+    }
+}
+
+.correct{
+    animation: rightAnswer 0.2s ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+}
+.incorrect{
+    animation: wrongAnswer 0.2s ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+}
+
+@keyframes rightAnswer {
+    0%{
+        box-shadow: 0 0 10px 10px rgba(30, 250, 78, 0.1);
+    }
+    50%{
+        box-shadow: 0 0 10px 10px rgba(30, 250, 78, 0.4);
+    }
+    100%{
+        box-shadow: 0 0 10px 10px rgba(30, 250, 78, 0.9);
+    }
+}
+@keyframes wrongAnswer {
+    0%{
+        box-shadow: 0 0 10px 10px rgba(217, 17, 31, 0.1);
+    }
+    50%{
+        box-shadow: 0 0 10px 10px rgba(217, 17, 31, 0.4);
+    }
+    100%{
+        box-shadow: 0 0 10px 10px rgba(217, 17, 31, 0.9);
+    }
+}
+
+button{
+    background-color: #954B44;
+    padding: 1.2rem;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #985d57;
+    border: none;
+}
+button:active{
+    border: none;
+}

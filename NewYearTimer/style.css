@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./img/new_year.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    background-position: center center;
+    margin-top: 20%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    text-shadow: 0.2rem 0rem 0.4rem black;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: -0.8rem;
+    padding-bottom: 0.8rem;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.big-text{
+    line-height: 0.5;
+    font-size: 6rem;
+    font-weight: bolder;
+    margin: 1.2rem 1.5rem;
+}
+
+.content span{
+    font-size: 1.2rem;
+}
