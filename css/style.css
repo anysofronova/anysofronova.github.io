@@ -372,6 +372,9 @@ img{
 .TicTacToe{
     background-image: url("../images/TicTacToe.png");
 }
+.Karelia{
+    background-image: url("../images/karelia_portfolio.png");
+}
 input[type="radio"] {
     display:none;
 }
