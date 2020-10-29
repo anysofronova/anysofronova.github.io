@@ -12,9 +12,9 @@ const vue_skill = document.getElementById("vue_skill");
 let last_known_scroll_position = 0;
 let ticking = false;
 
-// ---------------SCROLL_PAGE---------------
+// ---------------SCROLL_PAGE_SKILLS---------------
 function doSomething(scroll_pos) {
-    if(scroll_pos > 1300){
+    if(scroll_pos > 1350){
         html_skill.classList.add("html-skill");
         css_skill.classList.add("css-skill");
         js_skill.classList.add("js-skill");
@@ -37,3 +37,17 @@ window.addEventListener('scroll', function(e) {
         ticking = true;
     }
 });
+
+const anchors = document.querySelectorAll('a[href*="#"]');
+
+for (let anchor of anchors){
+    anchor.addEventListener('click', function (e){
+        e.preventDefault();
+
+        const blockId = anchor.getAttribute('href').substr(1);
+        document.getElementById(blockId).scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+        })
+    })
+}
