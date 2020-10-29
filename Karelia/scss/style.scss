@@ -231,6 +231,7 @@ header{
   align-items: center;
   justify-content: center;
   input, select{
+    -webkit-appearance: none;
     padding: 0.8vw 1vw;
     margin: 2vw;
     border: none;
